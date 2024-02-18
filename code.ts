@@ -49,3 +49,14 @@ type carddate ={
 type carddetail = carddate & cardnumber &{
     cvv:number
 }
+
+const Array1:[]=[] // :[] means empty array
+Array1.push()
+
+const Array2:string[]=[] // :string[]-- array contain string elements
+Array2.push("gkfdrvuc")
+
+//another way
+const Array3:Array<number>=[]
+
+//types in array
