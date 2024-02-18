@@ -20,7 +20,8 @@ function createuser ():{name:string , price : number}{
 // }
 
 type User ={
-    name:string,
-    email: string,
+    readonly _id:string
+    name:string
+    email: string
     isactive :boolean
 }
