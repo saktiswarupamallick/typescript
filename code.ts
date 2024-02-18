@@ -35,3 +35,17 @@ let myUser:User ={
 }
 
 myUser.email ="vhmj"
+
+type cardnumber ={
+   
+    cardno:string
+    
+}
+type carddate ={
+   
+    carddate:string
+    
+}
+type carddetail = carddate & cardnumber &{
+    cvv:number
+}
