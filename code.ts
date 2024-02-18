@@ -24,4 +24,14 @@ type User ={
     name:string
     email: string
     isactive :boolean
+    creditdetails ?:number //? for optional..all dont have credit card
 }
+
+let myUser:User ={
+    _id :"122",
+    name:"yfgh",
+    email:"uikgj",
+    isactive: true
+}
+
+myUser.email ="vhmj"
