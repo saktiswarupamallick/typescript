@@ -60,3 +60,11 @@ Array2.push("gkfdrvuc")
 const Array3:Array<number>=[]
 
 //types in array
+
+type user = {
+    name :string
+    isactive: boolean
+}
+const userarray: user[]=[]
+
+userarray.push({name:"h",isactive:true})
