@@ -103,4 +103,4 @@ let seatallotment : "aisle" |"middle"| "window" //only these 3 can go in
 seatallotment = "window"
 
 //tuples
-const 
+const array4 :(string | number)[] =['hc',1]
