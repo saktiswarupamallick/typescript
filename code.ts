@@ -68,3 +68,33 @@ type user = {
 const userarray: user[]=[]
 
 userarray.push({name:"h",isactive:true})
+
+//union -when u dont know what type to expect so without using any we use union of types
+let score:number | string
+
+type user2 ={
+   name:string
+    cardno:string
+    
+}
+type admin ={
+   
+    carddate:string
+    
+}
+
+let user1:user2 | admin ={cardno:"jhufy",carddate:"gfv"}
+
+function getdbid(id : number| string){
+    if (typeof id === "string"){//here id is only string
+        id.toLowerCase()
+
+    }
+    console.log(id)
+}
+
+getdbid(6)
+getdbid("7")
+//union -literal assg
+let pi:3.14 = 3.14
+pi = 3.14
