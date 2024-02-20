@@ -102,5 +102,10 @@ pi = 3.14
 let seatallotment : "aisle" |"middle"| "window" //only these 3 can go in
 seatallotment = "window"
 
-//tuples
-const array4 :(string | number)[] =['hc',1]
+//tuples - to have a order of the data
+const array4 :(string | number)[] =['hc',1]//cant be no. first
+
+let user :[string,number,boolean]
+user = ["gh",67,true]
+
+//used in rgb (color)
