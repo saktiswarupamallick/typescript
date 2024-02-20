@@ -101,3 +101,6 @@ pi = 3.14
 
 let seatallotment : "aisle" |"middle"| "window" //only these 3 can go in
 seatallotment = "window"
+
+//tuples
+const 
