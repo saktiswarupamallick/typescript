@@ -98,3 +98,6 @@ getdbid("7")
 //union -literal assg
 let pi:3.14 = 3.14
 pi = 3.14
+
+let seatallotment : "aisle" |"middle"| "window" //only these 3 can go in
+seatallotment = "window"
