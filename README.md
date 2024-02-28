@@ -1,1 +1,1 @@
-# typescript
+# typescript{ts}
